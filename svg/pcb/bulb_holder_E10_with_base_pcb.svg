@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.071 143.732"  id="Layer_1" gorn="0" version="1.2" height="1.99628in" xml:space="preserve" x="0px" baseProfile="tiny" y="0px" width="2.15376in" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <g  id="silkscreen" gorn="0.1">
+        <line  stroke="#FFFFFF" y1="0.79" stroke-width="2" y2="142.522" x1="1.004" fill="none" x2="1.004"/>
+        <line  stroke="#FFFFFF" y1="142.522" stroke-width="2" y2="142.522" x1="1.004" fill="none" x2="154.076"/>
+        <line  stroke="#FFFFFF" y1="142.522" stroke-width="2" y2="0.79" x1="154.076" fill="none" x2="154.076"/>
+        <line  stroke="#FFFFFF" y1="0.79" stroke-width="2" y2="0.79" x1="154.076" fill="none" x2="1.004"/>
+        <rect  stroke="#FFFFFF" stroke-width="2" height="7.2" x="5.75" fill="none" y="51.19" width="7.2"/>
+        <line  stroke="#FFFFFF" y1="18.81" stroke-width="2" y2="18.81" x1="17.1" fill="none" x2="24.35"/>
+        <line  stroke="#FFFFFF" y1="15.185" stroke-width="2" y2="22.435" x1="20.725" fill="none" x2="20.725"/>
+    </g>
+    <g  id="copper1" gorn="0.2">
+        <g  id="copper0" gorn="0.2">
+            <rect  stroke="#FFBF00" stroke-width="1.6" height="3.96" x="7.37" fill="none" y="52.81" width="3.96"/>
+            <circle  id="connector1pin" r="1.98" gorn="0.2.0.1" stroke="#FFBF00" cx="9.35" stroke-width="1.6" cy="18.81" fill="none"/>
+            <circle  id="connector0pin" r="1.98" gorn="0.2.0.2" stroke="#FFBF00" cx="9.35" stroke-width="1.6" cy="54.81" fill="none"/>
+        </g>
+    </g>
+    <g  id="keepout" gorn="0.3"/>
+    <g  id="soldermask" gorn="0.4"/>
+    <g  id="outline" gorn="0.5"/>
+</svg>
