@@ -38,7 +38,7 @@ IF EXIST %1.fzpz (
     ECHO File %1.fzpz already exists.
     ECHO It will be erased if you continue.
     CHOICE /N /M "Do you want to continue (Y/N)?"
-    IF %ERRORLEVEL% == 2 GOTO END
+    IF ERRORLEVEL 2 GOTO END
     DEL %1.fzpz
 )
 
@@ -56,7 +56,7 @@ REM Clean up
 DEL part.%1.fzp svg.icon.%1_icon.svg svg.breadboard.%1_breadboard.svg svg.schematic.%1_schematic.svg svg.pcb.%1_pcb.svg
 
 REM Report
-ECHO %1.fzpz has been created.
+ECHO New file %1.fzpz has been created.
 
 GOTO END
 
@@ -66,7 +66,8 @@ ECHO 7-Zip (7z.exe) to be in the path.
 ECHO.
 ECHO.  make-fzpz [/?^|-h^|--help] ^<partname^>
 ECHO.
-ECHO ^<partname^>     Name of the Fritzing part.
+ECHO ^<partname^>     Name of the Fritzing part. The name must not include
+ECHO.               spaces.
 ECHO./?^|-h^|--help   Displays this message.
 ECHO.
 ECHO The *.fzp and *.svg files for the part are assumed to exist in folders
