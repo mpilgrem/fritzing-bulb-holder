@@ -12,6 +12,6 @@ Users can import their own parts. This project seeks to add the following parts:
 
 ## Example
 
-![Image of breadboard view](images/Raspberry_Pi_2_Bulb_bb.png)
+![Image of breadboard view](./images/Raspberry_Pi_2_Bulb_bb.png)
 
-![Image of schematic view](images/Raspberry_Pi_2_Bulb_schem.png)
+![Image of schematic view](./images/Raspberry_Pi_2_Bulb_schem.png)
